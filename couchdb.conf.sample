@@ -1,0 +1,13 @@
+# This is configuration for
+# the scripts in this directory
+#
+# for each config, create a file with these details, named after the
+# script file, e.g. couchdb-restore-all.sh -> couchdb-restore-all.config
+#
+# Values to set in Conf file
+COUCHBAK="[path to couchdb-backup.sh]"
+HOST=[host] # http://localhost
+PORT=[port] # probably some variant of 5984
+USER=[username] # possibly 'admin'
+PW=[password]
+BUDIR="[path to backup directory]"

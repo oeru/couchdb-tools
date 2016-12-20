@@ -1,0 +1,9 @@
+# This is configuration for
+# couchdb-backup-all.sh in this directory
+
+COUCHBAK='[path to couchdb-backup.sh]' # probably './couchdb-backup.sh'
+HOST=[URL to CouchDB server] # probably http://localhost
+PORT=[CouchDB Port] # default would be 5984
+USER=[CouchDB Username]
+PW=[CouchDB Password]
+BUDIR="[path to backup directory]" # I normally use "./backups"

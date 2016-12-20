@@ -1,0 +1,7 @@
+# This is configuration for
+# couchdb-delete-all.sh in this directory
+
+HOST=[URL to CouchDB server] # probably http://localhost
+PORT=[CouchDB Port] # default would be 5984
+USER=[CouchDB Username]
+PW=[CouchDB Password]

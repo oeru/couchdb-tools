@@ -1,0 +1,8 @@
+# This is configuration for
+# couchdb-restore-all.sh in this directory
+#
+HOST=[URL to CouchDB server] # probably http://localhost
+PORT=[CouchDB Port] # default would be 5984
+USER=[CouchDB Username]
+PW=[CouchDB Password]
+BUDIR="[path to backup directory]" # I normally use "./backups"
